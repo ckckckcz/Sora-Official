@@ -1,0 +1,9 @@
+.headerStyle {
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .headerStyle {
+        margin-top: 30px;
+    }
+}
