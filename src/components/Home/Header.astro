@@ -3,25 +3,27 @@ import "../../assets/css/header.css"
 import Avatar from "../UI/Avatar.astro";
 ---
 <section class="bg-white dark:bg-gray-900 headerStyle">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
-        <div class="flex flex-col justify-center">
-            <Avatar />      
-            <h1 class="mb-5 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Your Strategic Partner for Building <span class="text-blue-700">World-Class</span> Website</h1>
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16 justify-between">
+        <div class="flex flex-col justify-center">    
+            <h1 class="mb-1 text-2xl font-bold tracking-tight leading-none text-blue-700 md:text-2xl lg:text-2xl dark:text-white">
+                With Sora, we build together.
+            </h1>            
+            <h1 class="mb-5 text-4xl font-bold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Your Strategic Partner for Building World-Class Website</h1>
             <p class="mb-5 text-lg font-normal text-gray-500 lg:text-1xl dark:text-gray-400">Soraweb is more than just a website development service provider, but also a trusted collaborator focused on helping clients create amazing websites.</p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0">
                 <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-xl bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                    Get started
+                    Order Now
                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>
                 </a>
                 <a href="#" class="py-3 px-5 sm:ms-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-xl border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-                    Learn more
+                    Our Work
                 </a>  
             </div>
         </div>
-        <div class="flex justify-center items-center lg:block hidden">
-            <iframe class="mx-auto w-full lg:max-w-xl h-64 rounded-xl sm:h-96 shadow-xl" src="https://www.youtube.com/embed/KaLxCiilHns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <div class="flex justify-center items-center h-full w-full">
+            <img src="https://fetchpik.com/images/fetchpik.com-iconscout-FWbgHCiDT5.png" class="headerImg" alt="Centered Image">
+        </div>        
     </div>
 </section>
