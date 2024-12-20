@@ -14,7 +14,7 @@ export const team: TeamMember[] = [
         name: "Riovaldo Alfiyan Fahmi Rahman",
         role: "Front-End Developer",
         image: "../src/assets/img/Team/Riovaldo.png",
-        description: "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others.",
+        description: "The only way to learn a new programming language is by writing programs in it.",
         links: {
             github: "https://github.com/ckckckcz",
             linkedin: "https://linkedin.com/in/riovaldorahman",
@@ -24,7 +24,7 @@ export const team: TeamMember[] = [
     {
         name: "Rizal Abrar Fahmi",
         role: "Front-End Developer",
-        image: "../src/assets/img/Team/Vidi.png",
+        image: "../src/assets/img/Team/Rizal.png",
         description: "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others.",
         links: {
             github: "https://github.com/Maeeveee",
