@@ -1,5 +1,6 @@
 ---
 import { projects } from '../../data/portfolio';
+import Label from "../../components/UI/Label.astro"
 ---
 
 <div class="grid grid-cols-1 lg:grid lg:grid-cols-4 gap-5">
@@ -7,7 +8,7 @@ import { projects } from '../../data/portfolio';
         <div class="max-w-md mx-auto" data-key={index}>
             <img src={project.image} alt={`${project.title} Preview`} class="w-full rounded-md mb-4" />
             <div class="mb-2 mt-2">
-                <span class="inline-flex items-center px-3 py-1 bg-blue-200 text-xs font-medium bg-muted text-blue-700 rounded-md">{project.label}</span>
+                <Label label={project.label} />
             </div>
             <h2 class="text-xl font-semibold">{project.title}</h2>
             <p class="mt-2 text-md text-gray-400 text-muted-foreground font-medium">{project.description}</p>

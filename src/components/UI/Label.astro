@@ -1,0 +1,11 @@
+---
+import { getLabel } from "../../data/components/label";
+
+const { label } = Astro.props;
+const labelClass = getLabel(label);
+---
+
+<span class={`inline-flex items-center px-3 py-1 text-xs font-medium rounded-md ${labelClass}`}>
+    {label}
+</span>
+
