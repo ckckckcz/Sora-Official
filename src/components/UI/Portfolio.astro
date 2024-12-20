@@ -1,0 +1,19 @@
+---
+import { projects } from '../../data/portfolio';
+---
+
+<div class="grid grid-cols-1 lg:grid lg:grid-cols-4 gap-5">
+    {projects.map((project, index) => (
+        <div class="max-w-md mx-auto" data-key={index}>
+            <img src={project.image} alt={`${project.title} Preview`} class="w-full rounded-md mb-4" />
+            <div class="mb-2 mt-2">
+                <span class="inline-flex items-center px-3 py-1 bg-blue-200 text-xs font-medium bg-muted text-blue-700 rounded-md">{project.label}</span>
+            </div>
+            <h2 class="text-xl font-semibold">{project.title}</h2>
+            <p class="mt-2 text-md text-gray-400 text-muted-foreground font-medium">{project.description}</p>
+            <div class="mt-4 flex space-x-4">
+                <a href={project.link} target="_blank" class="bg-blue-700 hover:bg-blue-800 text-white px-4 py-2 rounded-xl font-medium">Live Preview</a>
+            </div>
+        </div>
+    ))}
+</div>
