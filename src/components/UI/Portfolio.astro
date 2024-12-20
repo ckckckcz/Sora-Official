@@ -6,7 +6,7 @@ import Label from "../../components/UI/Label.astro"
 <div class="grid grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4 gap-5">
     {projects.map((project, index) => (
         <div class="max-w-md mx-auto" data-key={index}>
-            <img src={project.image} alt={`${project.title} Preview`} class="w-full rounded-md mb-4" />
+            <img src={project.image} alt={`${project.title} Preview`} class="w-full rounded-xl mb-4" />
             <div class="mb-2 mt-2">
                 <Label label={project.label} />
             </div>
