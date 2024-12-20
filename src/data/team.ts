@@ -1,19 +1,10 @@
-export interface TeamMember {
-    name: string;
-    role: string;
-    image: string;
-    description: string;
-    links: {
-        github?: string;
-        linkedin?: string;
-        website?: string;
-    };
-}
+import type { TeamMember } from "../models/team";
+
 export const team: TeamMember[] = [
     {
         name: "Riovaldo Alfiyan Fahmi Rahman",
         role: "Front-End Developer",
-        image: "../src/assets/img/Team/Riovaldo.png",
+        image: "../src/assets/img/Team/Riovaldo.png", // Perbaiki path gambar
         description: "The only way to learn a new programming language is by writing programs in it.",
         links: {
             github: "https://github.com/ckckckcz",
@@ -28,8 +19,8 @@ export const team: TeamMember[] = [
         description: "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others.",
         links: {
             github: "https://github.com/Maeeveee",
-            linkedin: "https://www.linkedin.com/in/rizal-abrar-838337289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            website: "javascript:void(0)",
+            linkedin: "https://www.linkedin.com/in/rizal-abrar-838337289",
+            website: "javascript:void(0)", // Hindari penggunaan void(0) jika tidak diperlukan
         },
     },
     {
