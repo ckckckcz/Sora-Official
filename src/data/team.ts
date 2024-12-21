@@ -4,7 +4,7 @@ export const team: TeamMember[] = [
     {
         name: "Riovaldo Alfiyan Fahmi Rahman",
         role: "Front-End Developer",
-        image: "../src/assets/img/Team/Riovaldo.png", // Perbaiki path gambar
+        image: "https://i.ibb.co.com/hXTTZTR/Riovaldo.png",
         description: "The only way to learn a new programming language is by writing programs in it.",
         links: {
             github: "https://github.com/ckckckcz",
@@ -15,18 +15,18 @@ export const team: TeamMember[] = [
     {
         name: "Rizal Abrar Fahmi",
         role: "Front-End Developer",
-        image: "../src/assets/img/Team/Rizal.png",
-        description: "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others.",
+        image: "https://i.ibb.co.com/w7rjDGh/Rizal.jpg",
+        description: "Hesitation is defeat",
         links: {
             github: "https://github.com/Maeeveee",
             linkedin: "https://www.linkedin.com/in/rizal-abrar-838337289",
-            website: "javascript:void(0)", // Hindari penggunaan void(0) jika tidak diperlukan
+            website: "javascript:void(0)", 
         },
     },
     {
         name: "Vidi Joshubzky Saviola",
         role: "UI/UX Designer",
-        image: "../src/assets/img/Team/Vidi.png",
+        image: "https://i.ibb.co.com/Xxjd6Xq/Vidi.jpg",
         description: "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others.",
         links: {
             github: "https://github.com/TMTPST",
