@@ -16,7 +16,7 @@ export const team: TeamMember[] = [
         name: "Rizal Abrar Fahmi",
         role: "Front-End Developer",
         image: "https://i.ibb.co.com/w7rjDGh/Rizal.jpg",
-        description: "Hesitation is defeat",
+        description: "Mistakes in code aren't failures; they're stepping stones to better solutions.",
         links: {
             github: "https://github.com/Maeeveee",
             linkedin: "https://www.linkedin.com/in/rizal-abrar-838337289",
@@ -27,7 +27,7 @@ export const team: TeamMember[] = [
         name: "Vidi Joshubzky Saviola",
         role: "UI/UX Designer",
         image: "https://i.ibb.co.com/Xxjd6Xq/Vidi.jpg",
-        description: "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others.",
+        description: "Don't fear errors, they are proof you're exploring uncharted territory.",
         links: {
             github: "https://github.com/TMTPST",
             linkedin: "https://www.linkedin.com/in/vidi-joshubzky-saviola-7b05b5288/",
