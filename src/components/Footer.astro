@@ -1,0 +1,39 @@
+---
+import { Image } from "astro:assets";
+import Logo from "../assets/img/Logo.png";
+---
+<footer class="bg-white dark:bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+                <div class="flex items-center space-x-3">
+                    <Image src={Logo} class="h-8 w-auto rounded-full" alt="Soraweb Logo" />
+                    <span class="text-2xl font-semibold whitespace-nowrap dark:text-white">Soraweb</span>
+                </div>
+                <p class="mt-2 text-gray-600 font-medium dark:text-gray-400 text-md lg:pr-[700px]">
+                    Soraweb is more than just a website development service provider, but also a trusted collaborator focused on helping clients create amazing websites.
+                </p>
+            </div>
+            
+            <div class="">
+                <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-white">Follow</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="https://instagram.com/soraweb._" target="_blank" class="hover:underline ">Instagram</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="https://github.com/soracompagnie" target="_blank" class="hover:underline ">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/company/soraweb" target="_blank" class="hover:underline">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://soraofficial.vercel.app/" class="hover:underline">Soraweb™</a>. All Rights Reserved.
+            </span>
+        </div>
+    </div>
+</footer>
