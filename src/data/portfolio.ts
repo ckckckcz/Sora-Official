@@ -10,7 +10,7 @@ export const projects: PortfolioData[] = [
         label: "Landing Page"
     },
     {
-        title: "Warisan Kita",
+        title: "Warisan Kita",  
         description: truncate("an innovative platform that incorporates artificial intelligence (AI) technology to digitize, preserve, and promote traditional arts and culture. With a focus on preserving cultural heritage that is increasingly threatened by globalization, Warisan Kita provides technology-based solutions to collect, analyze, and distribute traditional artworks to a wider audience, while ensuring their sustainability for future generations."),
         image: "https://i.ibb.co.com/7vYf3jY/Screenshot-2024-12-26-182744.png",
         link: "https://warisankita.vercel.app",
