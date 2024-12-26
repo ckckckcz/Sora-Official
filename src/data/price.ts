@@ -31,33 +31,44 @@ export function formatFeatures(features: { description: string; included: boolea
 export const prices: PriceData[] = [
     {
         id: 1,
-        name: "Basic Landing Page",
+        name: "Basic Package (3-5 Business Days)",
         amount: 40,
         currency: "$",
         period: "/project",
         features: [
-            { description: "Single-page design", included: true },
+            { description: "1–3 pages (Home, About, Contact).", included: true },
+            { description: "Simple and responsive design", included: true },
             { description: "Pre-designed templates", included: true },
+            { description: "Basic contact form.", included: true },
+            { description: "Hosting and domain not included (guidance provided).", included: true },
         ],
     },
     {
         id: 2,
-        name: "Basic Business Website",
+        name: "Standard Package (5-7 Business Days)",
         amount: 70,
         currency: "$",
         period: "/project",
         features: [
-            
+            { description: "4–6 pages (Home, About, Services, Contact, etc.).", included: true },
+            { description: "Modern and responsive design", included: true },
+            { description: "Social media integration + Google Maps.", included: true },
+            { description: "On-page SEO (titles, descriptions).", included: true },
+            { description: "Free hosting & domain for 1 year*.", included: true },
         ],
     },
     {
         id: 3,
-        name: "Ultimate Website",
+        name: "Premium (7-10 Business Days)",
         amount: 120,
         currency: "$",
         period: "/project",
         features: [
-            
+            { description: "7-10 pages with advanced features.", included: true },
+            { description: "Custom and responsive design", included: true },
+            { description: "E-commerce functionality (online store with up to 10 products).", included: true },
+            { description: "Free hosting & domain for 1 year*.", included: true },
+            { description: "Chat integration (WhatsApp or live chat).", included: true },
         ],
     },
 ];
