@@ -23,4 +23,11 @@ export const projects: PortfolioData[] = [
         link: "https://view-point-dune.vercel.app",
         label: "Landing Page"
     },
+    {
+        title: "Blockster",  
+        description: truncate("Blockster is a platform focused on decentralized applications (dApps) and blockchain tools. It's all about giving developers the tools to build and integrate their projects into the blockchain ecosystem. It’s kind of like a playground for blockchain innovation, where users can explore, create, and connect in a decentralized world. If you’re into blockchain dev stuff, it’s worth checking out! You can dive deeper"),
+        image: "https://i.ibb.co.com/ZYDQ89M/image.png",
+        link: "https://blockster.vercel.app",
+        label: "Landing Page"
+    },
 ];
